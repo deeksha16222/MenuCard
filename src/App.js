@@ -12,7 +12,11 @@ const Products = [
 ];
 
 function App() {
-  return <FilterableProductTable products={Products} />;
+  return (
+    <div className="box">
+      <FilterableProductTable products={Products} />
+    </div>
+  );
 }
 
 export default App;
